@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "share-bold";
+  src: url("fonts/shareBoldFont.eot");
+  src: url("fonts/shareBoldFont.eot?#iefix") format("embedded-opentype"), url("fonts/shareBoldFont.woff") format("woff"), url("fonts/shareBoldFont.ttf") format("truetype"), url("fonts/shareBoldFont.svg#share-bold") format("svg");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "share-tech";
+  src: url("fonts/shareTechFont.eot");
+  src: url("fonts/shareTechFont.eot?#iefix") format("embedded-opentype"), url("fonts/shareTechFont.woff") format("woff"), url("fonts/shareTechFont.ttf") format("truetype"), url("fonts/shareTechFont.svg#share-tech") format("svg");
+  font-style: normal;
+  font-weight: normal; 
+}
+
+* {
+  font-family: "share-tech"; }
+
+
+.jumbotron{
+    background-image: url(img/jumbotronbackground.jpg);
+    color:white;
+}
+
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+hr.big-orange {
+  width: 90%;
+  margin-left: 0;
+  border-style: solid;
+  border-color: #fb9b2b;
+  border-width: 7px 0 0;
+  border-radius: 7px; 
+}
+
+#map {
+  position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+
+#contactLinkContainer{
+  display: inline-block;
+  flex-direction: row; 
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+     
+
+ul{
+  float: left;
+  list-style: none;
+}
+
+h4{
+  font-size: 25px;
+}
+
+#email{
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
