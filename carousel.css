@@ -1,21 +1,3 @@
-.jumbotron{
-    background-image: url(img/jumbotronbackground.jpg);
-    color:white;
-}
-
-/* Adds borders for tabs */
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
-.nav-tabs {
-    margin-bottom: 0;
-}
-
-
-
 .carousel {
   margin-bottom: 60px;
 }
@@ -72,12 +54,6 @@
   position: static;
 }
 
-.description{
+.carousel-description{
 	display: none;
 }
-
-
-
-
-
-
