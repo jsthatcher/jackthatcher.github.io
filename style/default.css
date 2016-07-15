@@ -19,7 +19,11 @@
 
 
 .jumbotron{
-    background-image: url(../img/jumbotronbackground.jpg);
+    background-image: url(../img/portfolio/toejamReflection.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     color:white;
 }
 
@@ -87,7 +91,7 @@ h4{
 }
 
 .exTitle{
-  color: #d58512;
+  color: #fb9b2b;
 }
 
 

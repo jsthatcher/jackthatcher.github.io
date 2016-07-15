@@ -6,14 +6,10 @@ function closeCap() {
 
 function openCap() {
 	$(".caption").animate({
-        bottom:100
+        bottom:70
     },"fast");
 }
 
-// $("button").click(function(){
-//     $(".caption").animate({
-//         bottom:100
-//     },"fast");
-// });
+
 
 
