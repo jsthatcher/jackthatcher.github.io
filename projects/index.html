@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume</title>
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
     <link href="../style/default.css" rel="stylesheet">
+    <script src="../app.js"></script>
     <link href="../style/carousel.css" rel="stylesheet">
   </head>
 
@@ -35,70 +37,33 @@
 	  </div>
 	</nav>
 
+
+
 	 <div id="myCarousel" class="carousel slide">
-      <div id='fullDes' class="carousel-inner">
+      <div class="carousel-inner">
 
         <div class="item active">
-          <img src="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Murakami</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <button id='desButton1' onClick="viewFullDes('#description1')">Read More</button>
-            </div>
+          <img src="../img/murakamiLogin.png">
+          <button type="button" class="btn btn-read" onClick="openCap()">Read More</button>
+          <div class="caption">
+            <p>Murakami is a virtual book club mobile app that allows readers to share reactions and discuss books they are reading. We felt that many readers are missing an outlet to discuss their thoughts and feelings, and Murakami can serve as a platform to encourage open exchange as well as find more books to read.</p>
+            <a class="btn btn-warning" href="https://github.com/FTLam11/murakami" target="_blank">View Repo</a>
+            <button type="button" class="btn btn-warning" onClick="closeCap()">Close</button>
           </div>
         </div>
-
-        <div class="item">
-          <img src="" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <button id='desButton2' onClick="viewFullDes('#description2')">Read More</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <button id='desButton3' onClick="viewFullDes('#description3')">Read More</button>
-            </div>
-          </div>
-        </div>
-
       </div>
-
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      	<i id='left-button' class="glyphicon glyphicon-circle-arrow-left"></i>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      	<i id='left-button' class="glyphicon glyphicon-circle-arrow-right"></i>
-      </a>
-
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
     </div>
 
 
     <div class='container'>
-      
-        <div id="description1" class="carousel-description">
-          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 11111111</p>
-        </div>
-
-        <div id="description2" class="carousel-description">
-          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 222222</p>
-        </div>
-
-        <div id="description3" class="carousel-description">
-          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 333333 </p>
-        </div>
-
-    
-
       <hr>
       <footer>
         <p>&copy; 2016 Jack Thatcher</p>
@@ -109,6 +74,6 @@
 
     
 
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
   </body>
 </html>

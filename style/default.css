@@ -19,7 +19,7 @@
 
 
 .jumbotron{
-    background-image: url(img/jumbotronbackground.jpg);
+    background-image: url(../img/jumbotronbackground.jpg);
     color:white;
 }
 
@@ -31,13 +31,16 @@
     padding: 10px;
 }
 
-.nav-tabs {
+
+
+.navbar {
     margin-bottom: 0;
 }
 
 hr.big-orange {
   width: 90%;
-  margin-left: 0;
+  margin: 0px 0px 10px 0px;
+
   border-style: solid;
   border-color: #fb9b2b;
   border-width: 7px 0 0;
@@ -55,12 +58,10 @@ hr.big-orange {
   display: inline-block;
   flex-direction: row; 
   justify-content: flex-start;
-  margin-top: 50px;
 }
      
 
 ul{
-  float: left;
   list-style: none;
 }
 
@@ -68,12 +69,52 @@ h4{
   font-size: 25px;
 }
 
-#email{
-  margin-left: 20px;
+
+.btn, .btn-read{
+  background-color: #fb9b2b;
+  border-color: #d58512;
+}
+
+.btn:hover, .btn-read:hover{
+  background-color: #E08A26;
+  border-color: #BA7511;
 }
 
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: #fb9b2b
 
+}
+
+.exTitle{
+  color: #d58512;
+}
+
+
+.link{
+  margin-left: -10%;
+}
+
+.link a{
+  font-size: 35px;
+  color: #fb9b2b;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr{
+  margin: 20px;
+}
+
+.skill{
+  width: 25px;
+}
+
+#email{
+  margin-left: 20px;
+}
 
 
 
