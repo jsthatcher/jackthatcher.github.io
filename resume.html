@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="style/default.css" rel="stylesheet">
     <link href="style/carousel.css" rel="stylesheet">
+
   </head>
 
   <body>
@@ -27,69 +31,70 @@
         <ul class="nav navbar-nav">
            <li><a href="home.html">Home</a></li>
            <li class='active'><a href="resume.html">Resume</a></li>
-           <li><a href="projects/index.html">Projects</a></li>
+           <li><a href="projects.html">Projects</a></li>
            <li><a href="contact.html">Contact</a></li>
         </ul>
 	  </div>
 	</nav>
 
 
-    <div class="container">
-      <div class="row">
-      
-        <div class="col-sm-12 col-md-5">
-        <h3>Summary</h3>
-        <hr class="big-orange">
-				<p> I'm a developer who has learned to love finding elegant and efficient solutions to problems. As a recent graduate from Dev Bootcamp, a 19-week intensive course focusing on building web applications, team skills and empathetic communication, I'm well-practiced at learning new languages and working with others. I want to continue building my technical skills as a member of a creative team that fosters growth for all in a collaborative environment where we share successes and challenges.</p>
-        </div>
-        <div class="col-sm-12 col-md-7">
-        	<div class='row'>
-				<h3> Skills </h3>
-				<hr class="big-orange">
-				<div class="col-xs-12 col-sm-4">
+	<div class="container">
+      	<div class="row">
+	        <div class="col-sm-12 col-md-5">
+		        <h3>Summary</h3>
+		        <hr class="big-orange">
+					<p> I'm a developer who has learned to love finding elegant and efficient solutions to problems. As a recent graduate from Dev Bootcamp, a 19-week intensive course focusing on building web applications, team skills and empathetic communication, I'm well-practiced at learning new languages and working with others. I want to continue building my technical skills as a member of a creative team that fosters growth for all in a collaborative environment where we share successes and challenges.</p>
+	        </div>
+	        <div class="col-sm-12 col-md-7">
+	        	<h3> Skills </h3>
+					<hr class="big-orange">
+					<div class='row'>
 					
-					<h4> Web Development: </h4>
-					<ul>
-						<li> Javascript </li>
-						<li> Ruby-on-Rails </li>
-						<li> Sinatra </li>
-						<li> HTML5 </li>
-						<li> CSS </li>
-						<li> Python </li>
-						<li> Angular </li>
-					</ul>
-				</div>
-
-				<div class="col-xs-12 col-sm-4">
-					<h4> Database: </h4>
+					<div class="col-xs-12 col-sm-4">
+						
+						<h4> Web Development: </h4>
 						<ul>
-							<li> SQLite </li>
-							<li> PostgreSQL </li>
-							<li> Active Record </li>
-							<li> XML </li>
+							<li> Javascript </li>
+							<li> Ruby-on-Rails </li>
+							<li> Sinatra </li>
+							<li> HTML5 </li>
+							<li> CSS </li>
+							<li> Python </li>
+							<li> Angular </li>
 						</ul>
-				</div>
+					</div>
 
-				<div class="col-xs-12 col-sm-4">
-					<h4> Other: </h4>
-						<ul>
-							<li> Object Oriented Design </li>
-							<li> Empathetic Communication </li>
-							<li> Pair Programming </li>
-							<li> Agile Workflow </li>
-						</ul>
+					<div class="col-xs-12 col-sm-4">
+						<h4> Database: </h4>
+							<ul>
+								<li> SQLite </li>
+								<li> PostgreSQL </li>
+								<li> Active Record </li>
+								<li> XML </li>
+							</ul>
+					</div>
+
+					<div class="col-xs-12 col-sm-4">
+						<h4> Other: </h4>
+							<ul>
+								<li> Object Oriented Design </li>
+								<li> Empathetic Communication </li>
+								<li> Pair Programming </li>
+								<li> Agile Workflow </li>
+							</ul>
+					</div>
 				</div>
-			</div>
-       	</div>
-      </div>
+       		</div>
+      	</div>
     </div>
 
-     <div class='container'>
-			<h3> Experience </h3><hr class="big-orange">
+		<div class="container">
+			<h3> Experience </h3>
+			<hr class="big-orange">
 			<div class='row'>
 				<div class='col-sm-12 col-md-2'>
-					<h4>Dev Bootcamp</h4>
-					<h5>Student Web Developer</h5>
+					<h3>Dev Bootcamp</h3>
+					<h5 class="exTitle">Student Web Developer</h5>
 				</div>
 
 				<div class="col-sm-9 col-md-7">
@@ -111,8 +116,8 @@
 			<div class='row'>
 
 				<div class='col-sm-12 col-md-2'>
-					<h4>The YMCA of <br> Metropolitan Chicago</h4>
-					<h5>Lifeguard and Camp Counsouler</h5>
+					<h3>The YMCA of <br> Metropolitan Chicago</h3>
+					<h5 class="exTitle">Lifeguard and Camp Counsouler</h5>
 				</div>
 
 				<div class="col-sm-9 col-md-7">
@@ -132,8 +137,8 @@
 			<div class='row'>
 
 				<div class='col-sm-12 col-md-2'>
-						<h4>Mt. Mitchell Golf Course</h4>
-						<h5>Full-Time Greenskeeper</h5>
+						<h3>Mt. Mitchell Golf Course</h3>
+						<h5 class="exTitle">Full-Time Greenskeeper</h5>
 				</div>
 
 				<div class="col-sm-9 col-md-7">
@@ -155,8 +160,8 @@
 			<div class='row'>
 
 				<div class='col-sm-12 col-md-2'>
-						<h4>The College of Wooster</h4>
-						<h5>Swim Meet Coordinator</h5>
+						<h3>The College of Wooster</h3>
+						<h5 class="exTitle">Swim Meet Coordinator</h5>
 				</div>
 
 				<div class="col-sm-9 col-md-7">
@@ -174,14 +179,14 @@
 				</div>
 
 			</div>
-	</div>
+		</div>
 
 	<div class='container'>
 		<h3> Education </h3>
 				<hr class="big-orange">
 		<div class='row'>
 			<div class='col-xs-8 col-md-9'>
-					<h4>Dev Bootcamp</h4>
+					<h3>Dev Bootcamp</h3>
 					<h5>Chicago, IL</h5>
 				</div>
 
@@ -192,7 +197,7 @@
 
 		<div class='row'>
 			<div class='col-xs-8 col-md-9'>
-					<h4>The College of Wooster</h4>
+					<h3>The College of Wooster</h3>
 					<h5>Wooster, OH</h5>
 				</div>
 
@@ -210,7 +215,7 @@
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
